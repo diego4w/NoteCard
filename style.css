@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardCreate{
+    margin: 10px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 80px;
+    padding: 20px;
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#txt{
+    margin-top: 5px;
+    border-radius: 10px;
+}
